@@ -1,0 +1,35 @@
+{
+  "name": "111.com.cn",
+  "version": "1.0.0",
+  "description": "壹药网项目",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marco-hui/111.com.cn.git"
+  },
+  "keywords": [
+    "壹药网",
+    "H5",
+    "1705"
+  ],
+  "author": "Marco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marco-hui/111.com.cn/issues"
+  },
+  "homepage": "https://github.com/Marco-hui/111.com.cn#readme"
+}

@@ -1,0 +1,94 @@
+//覆盖默认变量
+
+//导入var.scss文件
+@import 'var';
+
+#header{
+	height:274px;border-bottom:2px solid #D2B994;
+	.h_top{
+		background:#F1F1F1;font-size:12px;color:#5E5E5E;padding-left:4px;
+		%ir{width:7px;height:4px; background:url(img/common_sprite.png) no-repeat -163px 0;vertical-align:middle;}
+		.left{
+			position:relative;
+			p{
+				padding-top:12px;height:38px;
+				span{padding:0 5px 0 10px;font-weight:bold;}
+				i{@extend %ir}
+			}
+			&:hover p{background:#fff;}
+			.province{
+				position:absolute;left:0;display:none;
+				ul{
+					background:#fff;border:1px solid #E5E5E5;border-top:0 none;padding:10px;width:300px;
+					li{
+						margin:5px 0;
+						span{color:#A5A5A5;font-weight:bold;}
+						a{
+							margin:0 8px;
+							&:hover{color:$hoverColor;text-decoration:underline;}
+						}
+					}
+				}
+			}
+		}
+		.right>ul{
+			&>li{
+				float:left;height:38px;padding-top:12px;
+				&>a{padding:0 10px;border-right:1px solid #E0E0E0;color:#5E5E5E;}
+				&:first-child a.login{border:0 none;padding:0;color:#E54948;}
+				&:nth-child(3){
+					position:relative;
+					&>a i{
+						@extend %ir;
+						margin-left:5px;
+					}
+					ul{
+						background:#fff;position:absolute;top:38px;display:none;border:1px solid #ddd;border-top:0 none;
+						li{
+							padding:4px 4px 4px 10px;
+							&:hover{background:#eee;}
+						}
+					}
+					&:hover{background:#fff;}
+					&:hover ul{display:block;}
+				}
+
+				&:nth-child(5) span{color:#C7A774;font-weight:bold;padding:0 10px;border-right:1px solid #E0E0E0;}
+				&:last-child>a{
+					border:0 none;
+					i{width:9px;height:13px;background:url(img/common_sprite.png) no-repeat -164px -112px;margin-right:5px;vertical-align:middle;}
+				}
+				&:first-child a:first-child:hover{text-decoration:underline;}
+				&:first-child a:last-child:hover{color:$hoverColor;text-decoration:underline;}
+				@for $i from 2 through 6{
+					&:nth-child(#{$i}):hover>a{color:$hoverColor;text-decoration:underline;}
+				}
+			}
+		}
+	}
+	.h_main{
+		height:130px;padding-left:32px;padding-top:26px;
+		.logo a{display:block;width:180px;height:61px;background:url(img/logo_01.png) no-repeat;float:left;margin-right:90px}
+		.middle{
+			float:left;margin-right:90px;
+			p.int{
+				width:533px;padding:8px 0;
+				input{width:452px;height:46px;border:1px solid #C7A774;padding-left:10px;float:left;font-size:16px;}
+				button{
+					display:inline-block;width:80px;height:46px;border:1px solid #C7A774;border-left:0 none;float:left;position:relative;background:#fff;cursor:pointer;
+					i{width:21px;height:20px;background:url(img/search.png)}
+				}
+			}
+			p.hot{
+				font-size:12px;
+				a{
+					color:#5E5E5E;margin-right:16px;
+					&:hover{color:#e20;text-decoration:underline;}
+				}
+			}
+		}
+		.tdCode img{width:100px;}
+		.car a{display:inline-block;width:140px;height:38px;border:1px solid #EEE;}
+	}
+	
+}

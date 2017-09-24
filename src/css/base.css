@@ -3,15 +3,14 @@ html,body,h1,h2,h3,h4,p,ul,li,ol,dl,dt,dd,form,input,label{
 }
 ul,li{list-style: none;}
 a{text-decoration: none;color: #000;}
-img,i{display: block;}
-img{border:0 none;}
+i,span{display: inline-block;}
+img{border:0 none;display: block;}
 *{box-sizing:border-box;}
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
     color: #AEAEAE;
 }
-
 .clfix::after{
     content: "";
     display: block;

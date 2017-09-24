@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/*
+	存放全局变量
+*/
+#header { height: 274px; border-bottom: 2px solid #D2B994; }
+
+#header .h_top { background: #F1F1F1; font-size: 12px; color: #5E5E5E; padding-left: 4px; }
+
+#header .h_top .left p i, #header .h_top .right > ul > li:nth-child(3) > a i { width: 7px; height: 4px; background: url(img/common_sprite.png) no-repeat -163px 0; vertical-align: middle; }
+
+#header .h_top .left { position: relative; }
+
+#header .h_top .left p { padding-top: 12px; height: 38px; }
+
+#header .h_top .left p span { padding: 0 5px 0 10px; font-weight: bold; }
+
+#header .h_top .left:hover p { background: #fff; }
+
+#header .h_top .left .province { position: absolute; left: 0; display: none; }
+
+#header .h_top .left .province ul { background: #fff; border: 1px solid #E5E5E5; border-top: 0 none; padding: 10px; width: 300px; }
+
+#header .h_top .left .province ul li { margin: 5px 0; }
+
+#header .h_top .left .province ul li span { color: #A5A5A5; font-weight: bold; }
+
+#header .h_top .left .province ul li a { margin: 0 8px; }
+
+#header .h_top .left .province ul li a:hover { color: #0083CE; text-decoration: underline; }
+
+#header .h_top .right > ul > li { float: left; height: 38px; padding-top: 12px; }
+
+#header .h_top .right > ul > li > a { padding: 0 10px; border-right: 1px solid #E0E0E0; color: #5E5E5E; }
+
+#header .h_top .right > ul > li:first-child a.login { border: 0 none; padding: 0; color: #E54948; }
+
+#header .h_top .right > ul > li:nth-child(3) { position: relative; }
+
+#header .h_top .right > ul > li:nth-child(3) > a i { margin-left: 5px; }
+
+#header .h_top .right > ul > li:nth-child(3) ul { background: #fff; position: absolute; top: 38px; display: none; border: 1px solid #ddd; border-top: 0 none; }
+
+#header .h_top .right > ul > li:nth-child(3) ul li { padding: 4px 4px 4px 10px; }
+
+#header .h_top .right > ul > li:nth-child(3) ul li:hover { background: #eee; }
+
+#header .h_top .right > ul > li:nth-child(3):hover { background: #fff; }
+
+#header .h_top .right > ul > li:nth-child(3):hover ul { display: block; }
+
+#header .h_top .right > ul > li:nth-child(5) span { color: #C7A774; font-weight: bold; padding: 0 10px; border-right: 1px solid #E0E0E0; }
+
+#header .h_top .right > ul > li:last-child > a { border: 0 none; }
+
+#header .h_top .right > ul > li:last-child > a i { width: 9px; height: 13px; background: url(img/common_sprite.png) no-repeat -164px -112px; margin-right: 5px; vertical-align: middle; }
+
+#header .h_top .right > ul > li:first-child a:first-child:hover { text-decoration: underline; }
+
+#header .h_top .right > ul > li:first-child a:last-child:hover { color: #0083CE; text-decoration: underline; }
+
+#header .h_top .right > ul > li:nth-child(2):hover > a { color: #0083CE; text-decoration: underline; }
+
+#header .h_top .right > ul > li:nth-child(3):hover > a { color: #0083CE; text-decoration: underline; }
+
+#header .h_top .right > ul > li:nth-child(4):hover > a { color: #0083CE; text-decoration: underline; }
+
+#header .h_top .right > ul > li:nth-child(5):hover > a { color: #0083CE; text-decoration: underline; }
+
+#header .h_top .right > ul > li:nth-child(6):hover > a { color: #0083CE; text-decoration: underline; }
+
+#header .h_main { height: 130px; padding-left: 32px; padding-top: 26px; }
+
+#header .h_main .logo a { display: block; width: 180px; height: 61px; background: url(img/logo_01.png) no-repeat; float: left; margin-right: 90px; }
+
+#header .h_main .middle { float: left; margin-right: 90px; }
+
+#header .h_main .middle p.int { width: 533px; padding: 8px 0; }
+
+#header .h_main .middle p.int input { width: 452px; height: 46px; border: 1px solid #C7A774; padding-left: 10px; float: left; font-size: 16px; }
+
+#header .h_main .middle p.int button { display: inline-block; width: 80px; height: 46px; border: 1px solid #C7A774; border-left: 0 none; float: left; position: relative; background: #fff; cursor: pointer; }
+
+#header .h_main .middle p.int button i { width: 21px; height: 20px; background: url(img/search.png); }
+
+#header .h_main .middle p.hot { font-size: 12px; }
+
+#header .h_main .middle p.hot a { color: #5E5E5E; margin-right: 16px; }
+
+#header .h_main .middle p.hot a:hover { color: #e20; text-decoration: underline; }
+
+#header .h_main .tdCode img { width: 100px; }
+
+#header .h_main .car a { display: inline-block; width: 140px; height: 38px; border: 1px solid #EEE; }

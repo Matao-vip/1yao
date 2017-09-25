@@ -2,4 +2,16 @@
 
 #banner .ban_r { width: 260px; height: 400px; border-bottom: 1px solid #D2B994; border-right: 1px solid #D2B994; }
 
+#banner .ban_r #tabs { height: 166px; }
+
+#banner .ban_r #tabs #tabs-1 ul li { float: left; width: 68px; font-size: 12px; margin-bottom: 5px; color: #707070; }
+
+#banner .ban_r #tabs #tabs-1 ul li a { color: #707070; }
+
+#banner .ban_r #tabs #tabs-1 ul li:hover a { text-decoration: underline; }
+
+#banner .ban_r #tabs #tabs-2 a { display: inline-block; width: 72px; margin-right: 28px; }
+
+#banner .ban_r #tabs #tabs-2 a p { text-align: center; font-size: 14px; color: #5E5E5E; }
+
 #banner .lbt { width: 750px; height: 400px; }

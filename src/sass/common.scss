@@ -176,7 +176,6 @@
 		.nav_right{
 			padding-right:30px;
 			ul.one{
-				overflow:hidden;
 				&>li{
 					float:left;
 					&>a{display:block;height:46px;padding:0 16px;line-height:46px;color:#505050;}
@@ -190,6 +189,7 @@
 						position:relative;
 						a i{@extend %ir;margin-left:10px;}
 						ul.two{
+							position:absolute;z-index:1000;width:122px;
 							background:#fff;border:1px solid #ddd;display:none;border-top:0 none;
 							li a{display:block;padding-left:16px;font-size:14px;line-height:25px;}
 							li:hover{background:#eee;}

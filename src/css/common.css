@@ -164,8 +164,6 @@
 
 #header #nav .nav_right { padding-right: 30px; }
 
-#header #nav .nav_right ul.one { overflow: hidden; }
-
 #header #nav .nav_right ul.one > li { float: left; }
 
 #header #nav .nav_right ul.one > li > a { display: block; height: 46px; padding: 0 16px; line-height: 46px; color: #505050; }
@@ -178,7 +176,7 @@
 
 #header #nav .nav_right ul.one > li:last-child a i { margin-left: 10px; }
 
-#header #nav .nav_right ul.one > li:last-child ul.two { background: #fff; border: 1px solid #ddd; display: none; border-top: 0 none; }
+#header #nav .nav_right ul.one > li:last-child ul.two { position: absolute; z-index: 1000; width: 122px; background: #fff; border: 1px solid #ddd; display: none; border-top: 0 none; }
 
 #header #nav .nav_right ul.one > li:last-child ul.two li a { display: block; padding-left: 16px; font-size: 14px; line-height: 25px; }
 

@@ -1,7 +1,23 @@
 
 #banner{
 	height:400px;
-	.ban_r{width:260px;height:400px;border-bottom:1px solid #D2B994;border-right:1px solid #D2B994;}
+	.ban_r{
+		width:260px;height:400px;border-bottom:1px solid #D2B994;border-right:1px solid #D2B994;
+		#tabs{
+			height:166px;
+			#tabs-1 ul{
+				li{
+					float:left;width:68px;font-size:12px;margin-bottom:5px;color:#707070;
+					a{color:#707070;}
+					&:hover a{text-decoration:underline;}
+				}
+			}
+			#tabs-2 a{
+				display:inline-block;width:72px;margin-right:28px;
+				p{text-align:center;font-size:14px;color:#5E5E5E;}
+			}
+		}
+	}
 	.lbt{width: 750px;height: 400px;}
 }
 

@@ -1,5 +1,5 @@
 require(['config'],function(){
-	require(['jquery','common','same','mcarousel'],function($,com,same,mc){
+	require(['jquery','common','same','mcarousel','jqueryui'],function($,com,same,mc,jui){
 		/************header**************/
 		// 加载header的内容
 		$('#header').load('html/header.html',function(){
@@ -21,6 +21,7 @@ require(['config'],function(){
 			type:'horizontal',
 			showButton:false
 		})
+		$( "#tabs" ).tabs();
 
 		/************main**************/
 		// $('#main')

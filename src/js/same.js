@@ -73,5 +73,16 @@ function Header(){
 }
 
 function AsideR(){
-	
+	$('#asideR .reTop').click(function(){
+		speed=10;
+		let timer=setInterval(function(){
+			let scrollTop=window.scrollY;
+			speed=Math.ceil(scrollTop/10);
+			scrollTop-=speed;
+			if(scrollTop<=0){
+				clearInterval(timer);
+			}
+			window.scrollTo(0,scrollTop)
+		},30)
+	})
 }

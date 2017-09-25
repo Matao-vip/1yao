@@ -1,0 +1,11 @@
+.mcarousel{position:relative;overflow: hidden;}
+.mcarousel ul{position:absolute;left:0;top:0;overflow: hidden;}
+.mcarousel ul.horizontal li{float:left;}
+.mcarousel ul.fade li{position: absolute;top:0;left:0}
+.mcarousel img{display:block;}
+.mcarousel .page{position:absolute;;left:50%;bottom:10px;transform: translateX(-50%);}
+.mcarousel .page span{display:inline-block;width: 15px;height: 15px;overflow: hidden;background: #ccc;border-radius: 50%;margin:0 3px;text-indent:-1000px;}
+.mcarousel .page span.active{background: red;}
+
+.mcarousel > span{position: absolute;top:50%;left:10px;transform:translate(0,-50%);width:30px;height:60px;line-height:60px;text-align:center;background-color: rgba(0,0,0,.3);color:#fff;}
+.mcarousel .btn-next{left:auto;right:10px;}

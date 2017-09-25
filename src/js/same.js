@@ -39,6 +39,7 @@ function Header(){
 		}
 		$('#header .province').append($ul);
 	})
+
 	var $h_top_left=$('#header .h_top .left');
 	$h_top_left.on('mouseenter',function(){
 		$(this).find('p i').css('background-position','-163px -25px');
@@ -51,11 +52,22 @@ function Header(){
 	$h_top_left.find('.province').on('click','a',function(){
 		$('#located').html(this.innerText);
 	})
+
 	var $h_top_right=$('#header .h_top .right');
 	$h_top_right.find('.third').on('mouseenter',function(){
 		$(this).find('a i').css('background-position','-163px -25px');
 	})
 	$h_top_right.find('.third').on('mouseleave',function(){
 		$(this).find('a i').css('background-position','-163px 0');
+	})
+
+	var $nav_right_one=$('#nav .nav_right .one');
+	$nav_right_one.children().last().on('mouseenter',function(){
+		$(this).find('a i').css('background-position','-163px -25px');
+		$(this).find('.two').css('display','block');
+	})
+	$nav_right_one.children().last().on('mouseleave',function(){
+		$(this).find('a i').css('background-position','-163px 0');
+		$(this).find('.two').css('display','none');
 	})
 }

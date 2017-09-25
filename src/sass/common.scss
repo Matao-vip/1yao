@@ -193,9 +193,81 @@
 					}
 				}
 				&>li:hover>a{text-decoration:underline;}
-				
 			}
 		}
 	}
-	
+}
+
+#footer{
+	height:824px;
+	.promise{
+		height:180px;background:#F0F0F0;padding:38px 75px 0 75px;margin-bottom:50px;
+		li{
+			float:left;width:235px;height:113px;background:url(img/icon_gonggaob.png) no-repeat -8px -2px;margin-right:50px;
+			&:nth-child(2){background-position:-364px -2px;}
+			&:nth-child(3){background-position:-698px -2px;}
+			&:last-child{background-position:-990px -2px;margin-right:0;}
+		}
+	}
+	.online{
+		margin-bottom:30px;
+		ul{
+			height:148px;display:flex;justify-content:space-between;
+			li{
+				width:383px;background:#F0F0F0;padding:20px 0 0 40px;
+				i{width:110px;height:110px;float:left;margin-right:20px;background:url(img/TDCode3.fw.png) no-repeat 0 0;}
+				.r{
+					float:left;
+					h4{font-size:22px;color:#D5AD74;margin-bottom:8px;}
+					p{font-size:12px;color:#707070;line-height:18px;}
+				}
+				&:nth-child(2) i{background-position:-110px 0;}
+				&:nth-child(3) i{background-position:-220px 0;}
+			}
+		}
+	}
+	.server{
+		height:236px;padding-left:44px;
+		dl{
+			float:left;width:144px;
+			dt{font-size:18px;color:#5E5E72;margin-bottom:14px;font-weight:bold;}
+			dd a{line-height:24px;font-size:12px;color:#B2A2C2;}
+			dd:hover a{color:$hoverColor;text-decoration:underline;}
+		}
+		.tel{
+			border-left:1px solid #ddd;padding-left:76px;padding-top:18px;float:left;
+			b{display:block;font-size:18px;color:#C7A774;margin-bottom:16px;}
+			p.time{font-size:12px;color:#999;}
+			span{@extend p.time;padding-left:24px;}
+		}
+	}
+	.links{
+		ul{
+			display:flex;justify-content:center;
+			li{
+				a{padding:0 10px;border-right:1px solid #666;font-size:12px;color:#666;}
+				&:last-child a{border:0 none;}
+				&:hover a{text-decoration:underline;}
+				&:last-child:hover a{text-decoration:none;}
+			}
+		}
+		.link3 ul{
+			justify-content:space-around;margin-top:14px;
+			li{
+				a{border:0 none;display:inline-block;width:100px;height:40px;background:url(img/outherLogo.png) no-repeat 0 0}
+				@for $i from 2 through 10{
+					$x:-(110 * ($i - 1));
+					&:nth-child(#{$i}) a{background-position:#{$x}px 0;}
+				}
+			}
+		}
+	}
+	.final{
+		margin:28px 0 50px 0;
+		p{font-size:12px;text-align:center;color:#5E5E5E;}
+		p.last{
+			margin-top:16px;
+			i{width:20px;height:20px;background:url(img/copy_ico.png) no-repeat;}
+		}
+	}	
 }

@@ -71,3 +71,7 @@ function Header(){
 		$(this).find('.two').css('display','none');
 	})
 }
+
+function AsideR(){
+	
+}

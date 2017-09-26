@@ -58,7 +58,7 @@
 
 #header .h_top .left:hover p { background: #fff; }
 
-#header .h_top .left .province { position: absolute; left: 0; display: none; }
+#header .h_top .left .province { position: absolute; left: 0; display: none; z-index: 1; }
 
 #header .h_top .left .province ul { background: #fff; border: 1px solid #E5E5E5; border-top: 0 none; padding: 10px; width: 300px; }
 

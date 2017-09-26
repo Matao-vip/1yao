@@ -14,4 +14,176 @@
 
 #banner .ban_r #tabs #tabs-2 a p { text-align: center; font-size: 14px; color: #5E5E5E; }
 
+#banner .ban_r .consult { padding: 0 11px; }
+
+#banner .ban_r .consult a { display: block; width: 237px; height: 80px; }
+
+#banner .ban_r #tabs1 { padding: 0 14px; }
+
+#banner .ban_r #tabs1 > ul { padding-top: 15px; }
+
+#banner .ban_r #tabs1 > ul li { float: left; margin-right: 20px; height: 28px; cursor: pointer; }
+
+#banner .ban_r #tabs1 > ul li:first-child { margin-left: 60px; }
+
+#banner .ban_r #tabs1 > ul li a { color: #707070; }
+
+#banner .ban_r #tabs1 > ul li:hover { border-bottom: 1px solid #C7A774; }
+
+#banner .ban_r #tabs1 > ul li a.active { color: #C7A774; }
+
+#banner .ban_r #tabs1 .tabs1-0 { height: 113px; }
+
+#banner .ban_r #tabs1 #tabs1-1 ul { padding-top: 25px; }
+
+#banner .ban_r #tabs1 #tabs1-1 ul li { float: left; padding-right: 12px; }
+
+#banner .ban_r #tabs1 #tabs1-1 ul li:last-child { padding: 0; }
+
+#banner .ban_r #tabs1 #tabs1-1 ul li i { width: 37px; height: 37px; background: url(img/icon_gonggao.png) no-repeat -42px -44px; margin-left: 4px; }
+
+#banner .ban_r #tabs1 #tabs1-1 ul li:nth-child(2) i { background-position: -100px -44px; }
+
+#banner .ban_r #tabs1 #tabs1-1 ul li:nth-child(3) i { background-position: -156px -44px; }
+
+#banner .ban_r #tabs1 #tabs1-1 ul li:nth-child(4) i { background-position: -214px -44px; }
+
+#banner .ban_r #tabs1 #tabs1-1 ul li a { font-size: 12px; color: #C7A774; }
+
+#banner .ban_r #tabs1 #tabs1-2 ul li { font-size: 13px; line-height: 26px; }
+
+#banner .ban_r #tabs1 #tabs1-2 ul li:hover a { color: #f00; }
+
 #banner .lbt { width: 750px; height: 400px; }
+
+#main { margin-top: 10px; }
+
+#main .special { margin-bottom: 14px; }
+
+#main .special .clock { width: 180px; height: 150px; float: left; }
+
+#main .special ul li { float: left; }
+
+#main .banner { margin-bottom: 34px; }
+
+#main .section0 { height: 490px; margin-bottom: 30px; border: 1px solid #ddd; }
+
+#main .section0 .left { width: 180px; }
+
+#main .section0 .left .left_top { height: 88px; background: #F8F8F8; font-size: 20px; text-align: center; line-height: 88px; }
+
+#main .section0 .left .left_bottom ul li { float: left; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; }
+
+#main .section0 .left .left_bottom ul li a { display: block; width: 89px; height: 49px; text-align: center; line-height: 50px; font-size: 14px; color: #5E5E5E; }
+
+#main .section0 .right .right_top { height: 284px; }
+
+#main .section0 .right .right_top .lbt0 { width: 605px; height: 284px; float: left; }
+
+#main .section0 .right .right_top .adv { width: 403px; float: left; }
+
+#main .section0 .right .right_top .adv a { float: left; }
+
+#main .section0 .right .right_bottom { height: 204px; }
+
+#main .section1 { border-top: 2px solid #92C4FF; }
+
+#main .section1 .left_top { color: #92C4FF; }
+
+#main .section2 { border-top: 2px solid #8CD7D3; }
+
+#main .section2 .left_top { color: #8CD7D3; }
+
+#main .section3 { border-top: 2px solid #FFA27A; }
+
+#main .section3 .left_top { color: #FFA27A; }
+
+#main .section4 { border-top: 2px solid #FF6B6B; }
+
+#main .section4 .left_top { color: #FF6B6B; }
+
+#main .section5 { border-top: 2px solid #F6C89E; }
+
+#main .section5 .left_top { color: #F6C89E; }
+
+#main .section6 { border-top: 2px solid #AEE177; }
+
+#main .section6 .left_top { color: #AEE177; }
+
+#main .section7 { border-top: 2px solid #FFACD0; }
+
+#main .section7 .left_top { color: #FFACD0; }
+
+#main .section8 { border-top: 2px solid #CAC3F2; }
+
+#main .section8 .left_top { color: #CAC3F2; }
+
+#main .section9 { border-top: 2px solid #FCB0C0; }
+
+#main .section9 .left_top { color: #FCB0C0; }
+
+#main #tabs2 { height: 170px; border: 1px solid #bbb; margin-bottom: 80px; }
+
+#main #tabs2 > ul { background: #eee; margin-bottom: 16px; }
+
+#main #tabs2 > ul li { float: left; border: 1px solid #ddd; cursor: pointer; }
+
+#main #tabs2 > ul li a { display: block; text-align: center; line-height: 35px; width: 180px; height: 35px; color: #5E5E5E; }
+
+#main #tabs2 > ul li.li_active { border: 1px solid #fff; }
+
+#main #tabs2 > ul li a.a_active { background: #fff; }
+
+#main #tabs2 .tabs2-0 { height: 134px; }
+
+#main #tabs2 .tabs2-0 ul li { float: left; }
+
+#main #tabs2 .tabs2-1 li a { display: block; width: 118px; height: 52px; background: url(img/img_btm_logo.png) no-repeat 0 0; opacity: 0.7; }
+
+#main #tabs2 .tabs2-1 li:nth-child(1) a { background-position: 0px 0; }
+
+#main #tabs2 .tabs2-1 li:nth-child(11) a { background-position: 0px -52px; }
+
+#main #tabs2 .tabs2-1 li:nth-child(2) a { background-position: -118px 0; }
+
+#main #tabs2 .tabs2-1 li:nth-child(12) a { background-position: -118px -52px; }
+
+#main #tabs2 .tabs2-1 li:nth-child(3) a { background-position: -236px 0; }
+
+#main #tabs2 .tabs2-1 li:nth-child(13) a { background-position: -236px -52px; }
+
+#main #tabs2 .tabs2-1 li:nth-child(4) a { background-position: -354px 0; }
+
+#main #tabs2 .tabs2-1 li:nth-child(14) a { background-position: -354px -52px; }
+
+#main #tabs2 .tabs2-1 li:nth-child(5) a { background-position: -472px 0; }
+
+#main #tabs2 .tabs2-1 li:nth-child(15) a { background-position: -472px -52px; }
+
+#main #tabs2 .tabs2-1 li:nth-child(6) a { background-position: -590px 0; }
+
+#main #tabs2 .tabs2-1 li:nth-child(16) a { background-position: -590px -52px; }
+
+#main #tabs2 .tabs2-1 li:nth-child(7) a { background-position: -708px 0; }
+
+#main #tabs2 .tabs2-1 li:nth-child(17) a { background-position: -708px -52px; }
+
+#main #tabs2 .tabs2-1 li:nth-child(8) a { background-position: -826px 0; }
+
+#main #tabs2 .tabs2-1 li:nth-child(18) a { background-position: -826px -52px; }
+
+#main #tabs2 .tabs2-1 li:nth-child(9) a { background-position: -944px 0; }
+
+#main #tabs2 .tabs2-1 li:nth-child(19) a { background-position: -944px -52px; }
+
+#main #tabs2 .tabs2-1 li:nth-child(10) a { background-position: -1062px 0; }
+
+#main #tabs2 .tabs2-1 li:nth-child(20) a { background-position: -1062px -52px; }
+
+#main #tabs2 .tabs2-1 li:hover a { opacity: 1; }
+
+#main #tabs2 .tabs2-2 li { margin: 15px 0; }
+
+#main #tabs2 .tabs2-2 li a { display: block; width: 132px; height: 20px; font-size: 14px; line-height: 20px; text-align: center; color: #5E5E5E; }
+
+#main #tabs2 .tabs2-2 li:hover a { text-decoration: underline; }

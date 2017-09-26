@@ -1,5 +1,6 @@
 <?php
-	$url = 'http://1212.ip138.com/ic.asp';
+	$url = 'http://2017.ip138.com/ic.asp';
+	
 	$content = file_get_contents($url);
 
 	//修改编码

@@ -17,11 +17,167 @@
 				p{text-align:center;font-size:14px;color:#5E5E5E;}
 			}
 		}
+		.consult{
+			padding:0 11px;
+			a{
+				display:block;width:237px;height:80px;
+			}
+		}
+		#tabs1{
+			padding:0 14px;
+			&>ul{
+				padding-top:15px;
+				li{
+					float:left;margin-right:20px;height:28px;cursor:pointer;
+					&:first-child{margin-left:60px;}
+					a{color:#707070;}
+					&:hover{border-bottom:1px solid #C7A774;}
+					a.active{color:#C7A774;}
+				}
+			}
+			.tabs1-0{height:113px;}
+			#tabs1-1{
+				ul{
+					padding-top:25px;
+					li{
+						float:left;padding-right:12px;
+						&:last-child{padding:0;}
+						i{width:37px;height:37px;background:url(img/icon_gonggao.png) no-repeat -42px -44px;margin-left:4px;}
+						&:nth-child(2) i{background-position:-100px -44px;}
+						&:nth-child(3) i{background-position:-156px -44px;}
+						&:nth-child(4) i{background-position:-214px -44px;}
+						a{font-size:12px;color:#C7A774;}
+					}
+				}
+			}
+			#tabs1-2{
+				ul{
+					li{
+						font-size:13px;line-height:26px;
+						&:hover a{color:#f00;}
+					}
+				}
+			}
+		}
 	}
 	.lbt{width: 750px;height: 400px;}
 }
 
-
 #main{
-	
+	margin-top:10px;
+	.special{
+		margin-bottom:14px;
+		.clock{width:180px;height:150px;float:left;}
+		ul{
+			li{float:left;}
+		}
+	}
+	.banner{margin-bottom:34px;}
+	$F1color:#92C4FF;
+	$F2color:#8CD7D3;
+	$F3color:#FFA27A;
+	$F4color:#FF6B6B;
+	$F5color:#F6C89E;
+	$F6color:#AEE177;
+	$F7color:#FFACD0;
+	$F8color:#CAC3F2;
+	$F9color:#FCB0C0;
+	.section0{
+		height:490px;margin-bottom:30px;border:1px solid #ddd;
+		.left{
+			width:180px;
+			.left_top{height:88px;background:#F8F8F8;font-size:20px;text-align:center;line-height:88px;}
+			.left_bottom{
+				ul{
+					li{
+						float:left;border-right:1px solid #ddd;border-bottom:1px solid #ddd;
+						a{display:block;width:89px;height:49px;text-align:center;line-height:50px;font-size:14px;color:#5E5E5E;}
+					}
+				}
+			}
+		}
+		.right{
+			.right_top{
+				height:284px;
+				.lbt0{width:605px;height:284px;float:left;}
+				.adv{
+					width:403px;float:left;
+					a{float:left;}
+				}
+			}
+			.right_bottom{
+				height:204px;
+			}
+		}
+	}
+	.section1{
+		border-top:2px solid $F1color;
+		.left_top{color:$F1color;}
+	}
+	.section2{
+		border-top:2px solid $F2color;
+		.left_top{color:$F2color;}
+	}
+	.section3{
+		border-top:2px solid $F3color;
+		.left_top{color:$F3color;}
+	}
+	.section4{
+		border-top:2px solid $F4color;
+		.left_top{color:$F4color;}
+	}
+	.section5{
+		border-top:2px solid $F5color;
+		.left_top{color:$F5color;}
+	}
+	.section6{
+		border-top:2px solid $F6color;
+		.left_top{color:$F6color;}
+	}
+	.section7{
+		border-top:2px solid $F7color;
+		.left_top{color:$F7color;}
+	}
+	.section8{
+		border-top:2px solid $F8color;
+		.left_top{color:$F8color;}
+	}
+	.section9{
+		border-top:2px solid $F9color;
+		.left_top{color:$F9color;}
+	}
+	#tabs2{
+		height:170px;border:1px solid #bbb;margin-bottom:80px;
+		&>ul{
+			background:#eee;margin-bottom:16px;
+			li{
+				float:left;border:1px solid #ddd;cursor:pointer;
+				a{display:block;text-align:center;line-height:35px;width:180px;height:35px;color:#5E5E5E;}
+				&.li_active{border:1px solid #fff;}
+				a.a_active{background:#fff;}
+			}
+		}
+		.tabs2-0{
+			height:134px;
+			ul li{float:left;}
+		}
+		.tabs2-1 li{
+			a{display:block;width:118px;height:52px;background:url(img/img_btm_logo.png) no-repeat 0 0;opacity:0.7;}
+			@for $i from 1 through 10{
+				$x1:-($i - 1) * 118;
+				$n:$i + 10;
+				&:nth-child(#{$i}) a{background-position:#{$x1}px 0;}
+				&:nth-child(#{$n}) a{background-position:#{$x1}px -52px;}
+			}
+			&:hover a{opacity:1;}
+		}
+		.tabs2-2{
+			li{
+				margin:15px 0;
+				a{display:block;width:132px;height:20px;font-size:14px;line-height:20px;text-align:center;color:#5E5E5E;}
+				&:hover a{text-decoration:underline;}
+			}		
+		}
+
+	}
 }

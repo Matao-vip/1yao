@@ -187,3 +187,17 @@
 #main #tabs2 .tabs2-2 li a { display: block; width: 132px; height: 20px; font-size: 14px; line-height: 20px; text-align: center; color: #5E5E5E; }
 
 #main #tabs2 .tabs2-2 li:hover a { text-decoration: underline; }
+
+#asideL { width: 34px; position: fixed; left: 0; top: 50%; transform: translate(0, -50%); display: none; }
+
+#asideL a { display: block; height: 36px; width: 34px; font-size: 12px; color: #5E5E5E; text-align: center; border-top: 1px solid #ccc; border-right: 1px solid #ccc; }
+
+#asideL > a { background: #957682; color: #fff; }
+
+#asideL ul { border-bottom: 1px solid #ccc; }
+
+#asideL ul li a.first { line-height: 36px; }
+
+#asideL ul li a.last { color: #fff; background: #FF6B6B; display: none; }
+
+#asideL ul li:hover a.first { background: #FF6B6B; color: #fff; }

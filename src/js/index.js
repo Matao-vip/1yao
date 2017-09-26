@@ -10,7 +10,6 @@ require(['config'],function(){
 			$('.h_main .tdCode img').prop('src','img/2DCodenew2.jpg');
 			$('#nav .nav_left>a>i').css('display','none');
 			$('#nav .nav_left>ul').css('display','block');
-
 		})
 
 		/************banner**************/
@@ -119,7 +118,78 @@ require(['config'],function(){
 		}
 		tab2();
 
-
+		/************asideL**************/
+		function AsideL(){
+			// 窗口滚动事件
+			var $lis=$('#asideL ul').children();
+			window.onscroll=function(e){
+				var sY=scrollY;
+				if(sY>=900 && sY<=5700){
+					$('#asideL').show();
+				}else{
+					$('#asideL').hide();
+				}
+				switch(true){
+					case sY>=900 && sY<1400:
+						$lis.eq(0).find('.first').hide();
+						$lis.eq(0).find('.last').css('display','block');
+						$lis.eq(0).siblings('li').find('.first').show();
+						$lis.eq(0).siblings('li').find('.last').hide();
+						break;
+					case sY>=1400 && sY<2000:
+						$lis.eq(1).find('.first').hide();
+						$lis.eq(1).find('.last').css('display','block');
+						$lis.eq(1).siblings('li').find('.first').show();
+						$lis.eq(1).siblings('li').find('.last').hide();
+						break;
+					case sY>=2000 && sY<2500:
+						$lis.eq(2).find('.first').hide();
+						$lis.eq(2).find('.last').css('display','block');
+						$lis.eq(2).siblings('li').find('.first').show();
+						$lis.eq(2).siblings('li').find('.last').hide();
+						break;
+					case sY>=2500 && sY<3100:
+						$lis.eq(3).find('.first').hide();
+						$lis.eq(3).find('.last').css('display','block');
+						$lis.eq(3).siblings('li').find('.first').show();
+						$lis.eq(3).siblings('li').find('.last').hide();
+						break;
+					case sY>=3100 && sY<3600:
+						$lis.eq(4).find('.first').hide();
+						$lis.eq(4).find('.last').css('display','block');
+						$lis.eq(4).siblings('li').find('.first').show();
+						$lis.eq(4).siblings('li').find('.last').hide();
+						break;
+					case sY>=3600 && sY<4100:
+						$lis.eq(5).find('.first').hide();
+						$lis.eq(5).find('.last').css('display','block');
+						$lis.eq(5).siblings('li').find('.first').show();
+						$lis.eq(5).siblings('li').find('.last').hide();
+						break;
+					case sY>=4100 && sY<4600:
+						$lis.eq(6).find('.first').hide();
+						$lis.eq(6).find('.last').css('display','block');
+						$lis.eq(6).siblings('li').find('.first').show();
+						$lis.eq(6).siblings('li').find('.last').hide();
+						break;
+					case sY>=4600 && sY<5100:
+						$lis.eq(7).find('.first').hide();
+						$lis.eq(7).find('.last').css('display','block');
+						$lis.eq(7).siblings('li').find('.first').show();
+						$lis.eq(7).siblings('li').find('.last').hide();
+						break;
+					case sY>=5100 && sY<=5700:
+						$lis.eq(8).find('.first').hide();
+						$lis.eq(8).find('.last').css('display','block');
+						$lis.eq(8).siblings('li').find('.first').show();
+						$lis.eq(8).siblings('li').find('.last').hide();
+						break;
+					default:
+						break;
+				}
+			}
+		}
+		AsideL();
 		/************asideR**************/
 		$('#asideR').load('html/asideR.html',function(){
 			AsideR();

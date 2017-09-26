@@ -181,3 +181,17 @@
 
 	}
 }
+
+#asideL{
+	width:34px;position:fixed;left:0;top:50%;transform:translate(0,-50%);display:none;
+	a{display:block;height:36px;width:34px;font-size:12px;color:#5E5E5E;text-align:center;border-top:1px solid #ccc;border-right:1px solid #ccc;}
+	&>a{background:#957682;color:#fff;}
+	ul{
+		border-bottom:1px solid #ccc;
+		li{
+			a.first{line-height:36px;}
+			a.last{color:#fff;background:#FF6B6B;display:none;}
+			&:hover a.first{background:#FF6B6B;color:#fff;}
+		}
+	}
+}

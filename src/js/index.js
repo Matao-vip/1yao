@@ -104,7 +104,7 @@ require(['config'],function(){
 		}
 		Lbt();
 		
-		function tab2(){
+		function tabs2(){
 			$lis=$('#tabs2').children('ul').find('li');
 			$tabs2_0=$('#tabs2').children('.tabs2-0');
 			$lis.eq(0).addClass('li_active').find('a').addClass('a_active');
@@ -116,7 +116,28 @@ require(['config'],function(){
 				$tabs2_0.eq(idx).show().siblings('.tabs2-0').hide();
 			})
 		}
-		tab2();
+		tabs2();
+
+		// 获取数据库首页商品数据
+		$.get('../api/indexgoods.php',function(idxgoods){
+			var $idxGoods=$('#main .section0 .right_bottom');
+			for(var i=0;i<$idxGoods.length;i++){
+				var $ul=$('<ul/>');
+				console.log($ul);
+				var html=idxgoods.map(function(items,idx){
+						if(idx>=5*i && idx<5*(i+1)){
+							return `<li>
+								<img src="${items.imgurl}"/>
+								<a href="#">${items.describes}</a>
+								<span>￥${(items.price)}</span>
+							</li>`
+						}
+					}).join('');
+				$ul.html(html);
+				// console.log($ul);
+				$idxGoods.eq(i).append($ul);
+			}
+		},'json')
 
 		/************asideL**************/
 		function AsideL(){
@@ -190,6 +211,7 @@ require(['config'],function(){
 			}
 		}
 		AsideL();
+
 		/************asideR**************/
 		$('#asideR').load('html/asideR.html',function(){
 			AsideR();

@@ -84,7 +84,21 @@
 
 #main .section0 .right .right_top .adv a { float: left; }
 
-#main .section0 .right .right_bottom { height: 204px; }
+#main .section0 .right .right_bottom ul { overflow: hidden; }
+
+#main .section0 .right .right_bottom ul li { float: left; height: 204px; width: 201px; border-right: 1px solid #eee; padding-top: 22px; }
+
+#main .section0 .right .right_bottom ul li:last-child { border: 0 none; }
+
+#main .section0 .right .right_bottom ul li img { margin-bottom: 16px; margin-left: 50px; }
+
+#main .section0 .right .right_bottom ul li a, #main .section0 .right .right_bottom ul li span { display: block; font-size: 14px; color: #333; text-align: center; }
+
+#main .section0 .right .right_bottom ul li a { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; padding: 0 20px; }
+
+#main .section0 .right .right_bottom ul li span { color: #E72418; margin-top: 10px; }
+
+#main .section0 .right .right_bottom ul li:hover a { color: #f00; text-decoration: underline; }
 
 #main .section1 { border-top: 2px solid #92C4FF; }
 

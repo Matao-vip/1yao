@@ -106,7 +106,18 @@
 				}
 			}
 			.right_bottom{
-				height:204px;
+				ul{
+					overflow:hidden;
+					li{
+						float:left;height:204px;width:201px;border-right:1px solid #eee;padding-top:22px;
+						&:last-child{border:0 none;}
+						img{margin-bottom:16px;margin-left:50px;}
+						a,span{display:block;font-size:14px;color:#333;text-align:center;}
+						a{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;padding:0 20px;}
+						span{color:#E72418;margin-top:10px;}
+						&:hover a{color:#f00;text-decoration:underline;}
+					}
+				}
 			}
 		}
 	}

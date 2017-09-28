@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录1药网</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/login.css">
+	<script src="../lib/require.js" data-main="../js/login"></script>
+</head>
+<body>
+	<div id="logo">
+		<div class="container">
+			<h1><a href="../index.html"><img src="../img/yao_logo.png" title="1药网"></a></h1>
+		</div>
+	</div>
+	<main id="main">
+		<div class="container clfix">
+			<div class="left fl">
+				<img src="../img/l_bg_02.png">
+			</div>
+			<div class="right fr">
+				<div class="tab">
+					<ul class="clfix">
+						<li><a>普通登录</a></li>
+						<li><a>手机快速登录</a></li>
+					</ul>
+				</div>
+				<div class="hi clfix">
+					<h4>Hi，欢迎登录！</h4>
+					<span>还不是1药网会员？ <a href="reg.html">免费注册</a></span>
+				</div>
+				<div class="form content1">
+					<div class="tel">
+						<input type="tel"  id="username" name="username" placeholder="手机号" required>
+					</div>
+					<div class="passW">
+						<input type="password" id="pass" name="password" placeholder="登录密码" required>
+						<span class="pass_tip"></span>
+						<a href="#">忘记密码？</a>
+					</div>
+					<div class="VCode">
+						<input type="text" id="vCode" placeholder="验证码" required>
+						<span id="showCode"></span>
+						<button id="changeCode">换一张</button>
+						<i class="vCode_true"></i>
+						<i class="vCode_false"></i>
+						<span class="vCode_tip"></span>
+					</div>
+					<div class="auto">
+						<input type="checkbox" id="autoLogin"><label for="autoLogin">两周内免登录</label>
+					</div>
+					<input type="submit" value="登录" id="submit">
+				</div>
+				<div class="form content2">content2</div>
+				<div class="other_login">
+					<p>使用合作伙伴账号登录：</p>
+					<ul class="clfix">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer id="footer"></footer>
+</body>
+</html>

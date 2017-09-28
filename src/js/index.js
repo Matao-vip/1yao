@@ -11,6 +11,7 @@ require(['config'],function(){
 			$('#nav .nav_left>a>i').css('display','none');
 			$('#nav .nav_left>ul').css('display','block');
 			$('.h_top .reg').prop('href','html/reg.html');
+			$('.h_top .login').prop('href','html/login.html');
 		})
 
 		/************banner**************/

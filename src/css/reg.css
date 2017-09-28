@@ -60,39 +60,39 @@
 
 #main .container .left #form #submit { height: 38px; background: #0099F1; line-height: 38px; text-align: center; color: #fff; width: 340px; border: 0 none; cursor: pointer; }
 
-#main .container .left .other_reg { margin-top: 24px; padding-left: 50px; }
+#main .container .left .other_login { margin-top: 24px; padding-left: 50px; }
 
-#main .container .left .other_reg p { font-size: 12px; color: #5E5E5E; line-height: 22px; }
+#main .container .left .other_login p { font-size: 12px; color: #5E5E5E; line-height: 22px; }
 
-#main .container .left .other_reg ul { height: 62px; display: flex; justify-content: space-between; }
+#main .container .left .other_login ul { height: 62px; display: flex; justify-content: space-between; }
 
-#main .container .left .other_reg ul li { width: 38px; }
+#main .container .left .other_login ul li { width: 38px; }
 
-#main .container .left .other_reg ul li a { display: block; width: 40px; height: 40px; background: url(img/img_zhifu.png) no-repeat 0 0; }
+#main .container .left .other_login ul li a { display: block; width: 40px; height: 40px; background: url(img/img_zhifu.png) no-repeat 0 0; }
 
-#main .container .left .other_reg ul li:nth-child(1) a { background-position: 0px 0; }
+#main .container .left .other_login ul li:nth-child(1) a { background-position: 0px 0; }
 
-#main .container .left .other_reg ul li:nth-child(2) a { background-position: -48px 0; }
+#main .container .left .other_login ul li:nth-child(2) a { background-position: -48px 0; }
 
-#main .container .left .other_reg ul li:nth-child(3) a { background-position: -96px 0; }
+#main .container .left .other_login ul li:nth-child(3) a { background-position: -96px 0; }
 
-#main .container .left .other_reg ul li:nth-child(4) a { background-position: -144px 0; }
+#main .container .left .other_login ul li:nth-child(4) a { background-position: -144px 0; }
 
-#main .container .left .other_reg ul li:nth-child(5) a { background-position: -192px 0; }
+#main .container .left .other_login ul li:nth-child(5) a { background-position: -192px 0; }
 
-#main .container .left .other_reg ul li:nth-child(6) a { background-position: -240px 0; }
+#main .container .left .other_login ul li:nth-child(6) a { background-position: -240px 0; }
 
-#main .container .left .other_reg ul li:hover:nth-child(1) a { background-position: 0px -52px; }
+#main .container .left .other_login ul li:hover:nth-child(1) a { background-position: 0px -52px; }
 
-#main .container .left .other_reg ul li:hover:nth-child(2) a { background-position: -48px -52px; }
+#main .container .left .other_login ul li:hover:nth-child(2) a { background-position: -48px -52px; }
 
-#main .container .left .other_reg ul li:hover:nth-child(3) a { background-position: -96px -52px; }
+#main .container .left .other_login ul li:hover:nth-child(3) a { background-position: -96px -52px; }
 
-#main .container .left .other_reg ul li:hover:nth-child(4) a { background-position: -144px -52px; }
+#main .container .left .other_login ul li:hover:nth-child(4) a { background-position: -144px -52px; }
 
-#main .container .left .other_reg ul li:hover:nth-child(5) a { background-position: -192px -52px; }
+#main .container .left .other_login ul li:hover:nth-child(5) a { background-position: -192px -52px; }
 
-#main .container .left .other_reg ul li:hover:nth-child(6) a { background-position: -240px -52px; }
+#main .container .left .other_login ul li:hover:nth-child(6) a { background-position: -240px -52px; }
 
 #main .container .right { width: 500px; }
 

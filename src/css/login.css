@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/*
+	存放全局变量
+*/
+.container { width: 990px; }
+
+#logo h1 { margin-left: 10px; }
+
+#main { margin-bottom: 50px; }
+
+#main .container { border-top: 2px solid #0099F1; box-shadow: -5px 10px 10px 0 #ddd; position: relative; }
+
+#main .right { width: 400px; }
+
+#main .right .tab ul { border-bottom: 1px solid #E2E2E2; }
+
+#main .right .tab ul li { float: left; width: 200px; height: 45px; padding: 10px 0; }
+
+#main .right .tab ul li a { display: block; text-align: center; color: #5E5E5E; cursor: pointer; }
+
+#main .right .tab ul li a:hover { color: #67C0FF; }
+
+#main .right .tab ul li:first-child a { border-right: 1px solid #E2E2E2; }
+
+#main .right .tab ul li.active { border-bottom: 2px solid #67C0FF; }
+
+#main .right .hi h4 { float: left; font-size: 16px; color: #5E5E5E; font-weight: normal; line-height: 50px; }
+
+#main .right .hi span { float: right; font-size: 12px; color: #5E5E5E; line-height: 50px; }
+
+#main .right .hi span a { color: #67C0FF; }
+
+#main .right .form > div { height: 70px; position: relative; }
+
+#main .right .form > div #username, #main .right .form > div #pass { width: 340px; height: 40px; padding-left: 40px; background: url(img/regest.png) no-repeat 8px -115px; border: 1px solid #E6E6E6; }
+
+#main .right .form > div #pass { background-position: 8px -147px; }
+
+#main .right .form .VCode .vCode_true, #main .right .form .VCode .vCode_false { width: 12px; height: 12px; background: url(img/regest.png) no-repeat -1px -1px; position: absolute; right: 10px; top: 14px; }
+
+#main .right .form .passW .pass_tip, #main .right .form .VCode .vCode_tip { font-size: 12px; line-height: 30px; color: #f00; }
+
+#main .right .form .VCode #vCode { width: 170px; height: 40px; border: 1px solid #E6E6E6; padding-left: 10px; }
+
+#main .right .form .VCode #showCode { width: 104px; height: 40px; line-height: 40px; text-align: center; font-size: 20px; }
+
+#main .right .form .VCode .vCode_true { right: 180px; top: 18px; display: none; }
+
+#main .right .form .VCode .vCode_false { right: 180px; top: 18px; background-position: -1px -28px; height: 13px; display: none; }
+
+#main .right .form #submit { height: 38px; background: #0099F1; line-height: 38px; text-align: center; color: #fff; width: 340px; border: 0 none; cursor: pointer; }
+
+#main .right .content2 { display: none; }
+
+#main .right .other_login { margin-top: 24px; }
+
+#main .right .other_login p { font-size: 12px; color: #5E5E5E; line-height: 22px; }
+
+#main .right .other_login ul { height: 62px; display: flex; justify-content: space-between; }
+
+#main .right .other_login ul li { width: 38px; }
+
+#main .right .other_login ul li a { display: block; width: 40px; height: 40px; background: url(img/img_zhifu.png) no-repeat 0 0; }
+
+#main .right .other_login ul li:nth-child(1) a { background-position: 0px 0; }
+
+#main .right .other_login ul li:nth-child(2) a { background-position: -48px 0; }
+
+#main .right .other_login ul li:nth-child(3) a { background-position: -96px 0; }
+
+#main .right .other_login ul li:nth-child(4) a { background-position: -144px 0; }
+
+#main .right .other_login ul li:nth-child(5) a { background-position: -192px 0; }
+
+#main .right .other_login ul li:nth-child(6) a { background-position: -240px 0; }
+
+#main .right .other_login ul li:hover:nth-child(1) a { background-position: 0px -52px; }
+
+#main .right .other_login ul li:hover:nth-child(2) a { background-position: -48px -52px; }
+
+#main .right .other_login ul li:hover:nth-child(3) a { background-position: -96px -52px; }
+
+#main .right .other_login ul li:hover:nth-child(4) a { background-position: -144px -52px; }
+
+#main .right .other_login ul li:hover:nth-child(5) a { background-position: -192px -52px; }
+
+#main .right .other_login ul li:hover:nth-child(6) a { background-position: -240px -52px; }

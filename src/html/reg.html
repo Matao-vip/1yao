@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册1药网</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/reg.css">
+	<script src="../lib/require.js" data-main="../js/reg"></script>
+</head>
+<body>
+	<div id="logo">
+		<div class="container">
+			<h1><a href="../index.html"><img src="../img/yao_logo.png" title="1药网"></a></h1>
+		</div>
+	</div>
+	<main id="main">
+		<div class="container clfix">
+			<div class="left fl">
+				<h4>Hi,欢迎注册!</h4>
+				<div id="form">
+					<div class="tel">
+						<input type="tel"  id="username" name="username" placeholder="手机号" required>
+						<i class="tel_empty"></i>
+						<i class="tel_true"></i>
+						<span class="tel_tip"></span>
+					</div>
+					<div class="passW">
+						<input type="password" id="pass" name="password" placeholder="设置密码" required>
+						<span class="pass_exp">6-20位字符，建议由字母，数字和符号两种以上组合</span>
+						<i class="pass_true"></i>
+						<span class="pass_tip"></span>
+						<div class="safe">
+							安全程度
+							<span>弱</span>
+							<span>中</span>
+							<span>强</span>
+						</div>
+					</div>
+					<div class="rePass">
+						<input type="password" id="repass" placeholder="确认密码" required>
+						<i class="repass_true"></i>
+						<span class="repass_tip"></span>
+					</div>
+					<div class="VCode">
+						<input type="text" id="vCode" placeholder="验证码" required>
+						<span id="showCode"></span>
+						<button id="changeCode">换一张</button>
+						<i class="vCode_true"></i>
+						<i class="vCode_false"></i>
+						<span class="vCode_tip"></span>
+					</div>
+					<div class="Agree">
+						<input type="checkbox" id="agree"><label for="agree">我已阅读并同意</label><a href="http://www.111.com.cn/cmsPage/origPage/22270.html?topicId=22270">《1药网服务协议》</a>
+					</div>
+					<input type="submit" value="立即注册" id="submit">
+				</div>
+				<div class="other_reg">
+					<p>使用合作伙伴账号登录：</p>
+					<ul class="clfix">
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="right fr">
+				<p>我已注册，现在就<a href="login.html">登录</a></p>
+				<img src="../img/r_bg_02.png">
+			</div>
+		</div>
+	</main>
+	<div id="popup">
+		<h4>恭喜你！注册成功</h4>
+		<p>马上 <a href="login.html">登录</a></p>
+		<span>&times;</span>
+	</div>
+	<footer id="footer"></footer>
+</body>
+</html>

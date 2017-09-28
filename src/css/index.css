@@ -1,3 +1,7 @@
+@charset "UTF-8";
+/*
+	存放全局变量
+*/
 #banner { height: 400px; }
 
 #banner .ban_r { width: 260px; height: 400px; border-bottom: 1px solid #D2B994; border-right: 1px solid #D2B994; }

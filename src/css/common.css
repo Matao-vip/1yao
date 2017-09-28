@@ -204,8 +204,6 @@
 
 #asideR ul li:hover a span { display: block; }
 
-#footer { height: 824px; }
-
 #footer .promise { height: 180px; background: #F0F0F0; padding: 38px 75px 0 75px; margin-bottom: 50px; }
 
 #footer .promise li { float: left; width: 235px; height: 113px; background: url(img/icon_gonggaob.png) no-repeat -8px -2px; margin-right: 50px; }

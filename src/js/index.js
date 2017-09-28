@@ -10,6 +10,7 @@ require(['config'],function(){
 			$('.h_main .tdCode img').prop('src','img/2DCodenew2.jpg');
 			$('#nav .nav_left>a>i').css('display','none');
 			$('#nav .nav_left>ul').css('display','block');
+			$('.h_top .reg').prop('href','html/reg.html');
 		})
 
 		/************banner**************/
@@ -219,7 +220,7 @@ require(['config'],function(){
 
 		/************footer**************/
 		// 加载footerd内容
-		$('#footer').load('html/footer.html',function(){})
+		$('#footer').load('html/footer.html')
 
 	})
 });

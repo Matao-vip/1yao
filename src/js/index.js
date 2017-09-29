@@ -1,5 +1,15 @@
 require(['config'],function(){
 	require(['jquery','common','same','mcarousel','jqueryui'],function($,com,same,mc,jui){
+		// 判断是否存在两周内免登陆cookie
+		var username=com.Cookie.get('username');
+		// location.href="../index.html?username=" + username;
+		// 判断是否有登录
+		var params = location.search;
+		params = decodeURI(params);
+		if(username ===""){
+			username=params.split('=')[1];
+		}
+
 		/************header**************/
 		// 加载header的内容
 		$('#header').load('html/header.html',function(){
@@ -12,6 +22,13 @@ require(['config'],function(){
 			$('#nav .nav_left>ul').css('display','block');
 			$('.h_top .reg').prop('href','html/reg.html');
 			$('.h_top .login').prop('href','html/login.html');
+			if(username !== undefined){
+				$('#header .unLogin').hide();
+				$('#header .yetLogin').show().find('span').html(username + " 欢迎您！").next('a').prop('href','html/login.html');
+			}
+			$('#header .yetLogin').on('click','a',function(){
+				com.Cookie.remove('username');
+			})
 		})
 
 		/************banner**************/
@@ -125,7 +142,6 @@ require(['config'],function(){
 			var $idxGoods=$('#main .section0 .right_bottom');
 			for(var i=0;i<$idxGoods.length;i++){
 				var $ul=$('<ul/>');
-				console.log($ul);
 				var html=idxgoods.map(function(items,idx){
 						if(idx>=5*i && idx<5*(i+1)){
 							return `<li>

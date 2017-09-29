@@ -113,8 +113,20 @@
 					border:0 none;
 					i{width:9px;height:13px;background:url(img/common_sprite.png) no-repeat -164px -112px;margin-right:5px;vertical-align:middle;}
 				}
-				&:first-child a:first-child:hover{text-decoration:underline;}
-				&:first-child a:last-child:hover{color:$hoverColor;text-decoration:underline;}
+				&:first-child{
+					.unLogin{
+						a:first-child:hover{text-decoration:underline;}
+						a:last-child:hover{color:$hoverColor;text-decoration:underline;}
+					}
+					.yetLogin{
+						display:none;
+						a{
+							color:$mainColor;
+							&:hover{text-decoration:underline;}
+						}
+					}
+				}
+				
 				@for $i from 2 through 6{
 					&:nth-child(#{$i}):hover>a{color:$hoverColor;text-decoration:underline;}
 				}

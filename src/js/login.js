@@ -88,8 +88,7 @@ require(['config'],function(){
 						if(isAuto){
 							var date=new Date();
 							date.setDate(date.getDate()+14);
-							var str=JSON.stringify({username:username})
-							com.Cookie.set('user',str,{expires:date.toUTCString(),path:"/"});
+							com.Cookie.set('username',username,{expires:date.toUTCString(),path:"/"});
 						}
 						location.href="../index.html?username=" + username;
 					}

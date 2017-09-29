@@ -96,9 +96,15 @@
 
 #header .h_top .right > ul > li:last-child > a i { width: 9px; height: 13px; background: url(img/common_sprite.png) no-repeat -164px -112px; margin-right: 5px; vertical-align: middle; }
 
-#header .h_top .right > ul > li:first-child a:first-child:hover { text-decoration: underline; }
+#header .h_top .right > ul > li:first-child .unLogin a:first-child:hover { text-decoration: underline; }
 
-#header .h_top .right > ul > li:first-child a:last-child:hover { color: #0083CE; text-decoration: underline; }
+#header .h_top .right > ul > li:first-child .unLogin a:last-child:hover { color: #0083CE; text-decoration: underline; }
+
+#header .h_top .right > ul > li:first-child .yetLogin { display: none; }
+
+#header .h_top .right > ul > li:first-child .yetLogin a { color: #67C0FF; }
+
+#header .h_top .right > ul > li:first-child .yetLogin a:hover { text-decoration: underline; }
 
 #header .h_top .right > ul > li:nth-child(2):hover > a { color: #0083CE; text-decoration: underline; }
 

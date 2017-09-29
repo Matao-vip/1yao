@@ -26,9 +26,11 @@
 
 #main .right .hi h4 { float: left; font-size: 16px; color: #5E5E5E; font-weight: normal; line-height: 50px; }
 
-#main .right .hi span { float: right; font-size: 12px; color: #5E5E5E; line-height: 50px; }
+#main .right .hi span { float: right; font-size: 12px; color: #5E5E5E; line-height: 50px; margin-right: 20px; }
 
-#main .right .hi span a { color: #67C0FF; }
+#main .right .hi span a { color: #0083CE; }
+
+#main .right .hi span a:hover { text-decoration: underline; }
 
 #main .right .form > div { height: 70px; position: relative; }
 
@@ -40,17 +42,29 @@
 
 #main .right .form .passW .pass_tip, #main .right .form .VCode .vCode_tip { font-size: 12px; line-height: 30px; color: #f00; }
 
+#main .right .form .passW .pass_tip { display: none; }
+
+#main .right .form .passW a { float: right; font-size: 13px; color: #0083CE; margin-right: 55px; }
+
+#main .right .form .passW a:hover { text-decoration: underline; }
+
 #main .right .form .VCode #vCode { width: 170px; height: 40px; border: 1px solid #E6E6E6; padding-left: 10px; }
 
 #main .right .form .VCode #showCode { width: 104px; height: 40px; line-height: 40px; text-align: center; font-size: 20px; }
 
-#main .right .form .VCode .vCode_true { right: 180px; top: 18px; display: none; }
+#main .right .form .VCode .vCode_true { right: 240px; top: 18px; display: none; }
 
-#main .right .form .VCode .vCode_false { right: 180px; top: 18px; background-position: -1px -28px; height: 13px; display: none; }
+#main .right .form .VCode .vCode_false { right: 240px; top: 18px; background-position: -1px -28px; height: 13px; display: none; }
+
+#main .right .form .auto { font-size: 14px; height: 26px; }
+
+#main .right .form .auto input { margin-right: 5px; vertical-align: middle; }
+
+#main .right .form .auto label { vertical-align: middle; color: #5E5E5E; }
 
 #main .right .form #submit { height: 38px; background: #0099F1; line-height: 38px; text-align: center; color: #fff; width: 340px; border: 0 none; cursor: pointer; }
 
-#main .right .content2 { display: none; }
+#main .right .content2 { display: none; color: #f60; }
 
 #main .right .other_login { margin-top: 24px; }
 

@@ -28,8 +28,8 @@
 	 	.hi{
 	 		h4{float:left;font-size:16px;color:$fontColor;font-weight:normal;line-height:50px;}
 	 		span{
-	 			float:right;font-size:12px;color:$fontColor;line-height:50px;
-	 			a{color:$mainColor;}
+	 			float:right;font-size:12px;color:$fontColor;line-height:50px;margin-right:20px;
+	 			a{color:#0083CE;&:hover{text-decoration:underline;}}
 	 		}
 	 	}
 	 	.form{
@@ -41,18 +41,27 @@
 	 		%ir{width:12px;height:12px;background:url(img/regest.png) no-repeat -1px -1px;position:absolute;right:10px;top:14px;}
 	 		%ar{font-size:12px;line-height:30px;color:#f00;}
 	 		.passW{
-	 			.pass_tip{@extend %ar;}
+	 			.pass_tip{@extend %ar;display:none;}
+	 			a{
+	 				float:right;font-size:13px;color:#0083CE;margin-right:55px;
+	 				&:hover{text-decoration:underline;}
+	 			}
 	 		}
 	 		.VCode{
 	 			#vCode{width:170px;height:40px;border:1px solid #E6E6E6;padding-left:10px;}
 	 			#showCode{width:104px;height:40px;line-height:40px;text-align:center;font-size:20px;}
-	 			.vCode_true{@extend %ir;right:180px;top:18px;display:none;}
-	 			.vCode_false{@extend %ir;right:180px;top:18px;background-position:-1px -28px;height:13px;display:none;}
+	 			.vCode_true{@extend %ir;right:240px;top:18px;display:none;}
+	 			.vCode_false{@extend %ir;right:240px;top:18px;background-position:-1px -28px;height:13px;display:none;}
 	 			.vCode_tip{@extend %ar;}
+	 		}
+	 		.auto{
+	 			font-size:14px;height:26px;
+	 			input{margin-right:5px;vertical-align:middle;}
+	 			label{vertical-align:middle;color:$fontColor;}
 	 		}
 	 		#submit{height:38px;background:#0099F1;line-height:38px;text-align:center;color:#fff;width:340px;border:0 none;cursor:pointer;}
 	 	}
-	 	.content2{display:none;}
+	 	.content2{display:none;color:#f60;}
 
 	 	.other_login{
 	 		margin-top:24px;

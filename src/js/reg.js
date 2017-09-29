@@ -155,11 +155,15 @@ require(['config'],function(){
 				$('#showCode').html(com.yanzhengma());
 				$('#showCode').click(function(){
 					$('#showCode').html(com.yanzhengma());
-					vvCode();
+					$('#vCode').val('');
+					$('#vCode').focus();
+					$('#main .vCode_true').hide();
 				})
 				$('#changeCode').click(function(){
 					$('#showCode').html(com.yanzhengma());
-					vvCode();
+					$('#vCode').val('');
+					$('#vCode').focus();
+					$('#main .vCode_true').hide();
 					return false;
 				})
 			}

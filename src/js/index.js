@@ -22,7 +22,10 @@ require(['config'],function(){
 			$('#nav .nav_left>ul').css('display','block');
 			$('.h_top .reg').prop('href','html/reg.html');
 			$('.h_top .login').prop('href','html/login.html');
+			$('#nav .nav_left .second a').prop('href','html/goodslist.html');
+			
 			if(username !== undefined){
+				$('#nav .nav_left .second a').prop('href','html/goodslist.html?username='+username);
 				$('#header .unLogin').hide();
 				$('#header .yetLogin').show().find('span').html(username + " 欢迎您！").next('a').prop('href','html/login.html');
 			}
@@ -233,6 +236,7 @@ require(['config'],function(){
 		/************asideR**************/
 		$('#asideR').load('html/asideR.html',function(){
 			AsideR();
+			$('#asideR .second a').prop('href','html/car.html');
 		})
 
 		/************footer**************/

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/*
+	存放全局变量
+*/
+#main { width: 100%; margin-top: 10px; }
+
+#main .asideL { width: 180px; }
+
+#main .asideL h2 > a { display: block; height: 38px; padding-left: 14px; font-size: 14px; color: #5E5E6D; line-height: 38px; background: #ddd; }
+
+#main .asideL #accordion h3 { margin: 0; border-radius: 0; border-top: 0 none; font-size: 12px; color: #5E5E6D; font-weight: bold; height: 38px; line-height: 38px; padding: 0; padding-left: 8px; }
+
+#main .asideL #accordion > div a { font-size: 12px; }
+
+#main .asideL #accordion > div a:hover { color: #f20; text-decoration: underline; }
+
+#main .boxR { width: 1000px; }

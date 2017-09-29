@@ -109,6 +109,8 @@ define(['jquery'],function($){
 			 * @return {String}      [cookie名对应的值]
 			 */
 			get:function(name){
+				console.log(666);
+
 				var res = '';
 				var cookies = document.cookie;
 				if(cookies.length>0){

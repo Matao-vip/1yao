@@ -44,7 +44,7 @@
 
 .icon-pingzi:before { content: "\e678"; }
 
-#header { height: 274px; border-bottom: 2px solid #D2B994; }
+#header { border-bottom: 2px solid #D2B994; }
 
 #header .h_top .left p i, #header .h_top .right > ul > li:nth-child(3) > a i, #header #nav .nav_right ul.one > li:last-child a i { width: 7px; height: 4px; background: url(img/common_sprite.png) no-repeat -163px 0; vertical-align: middle; }
 
@@ -154,7 +154,7 @@
 
 #header #nav .nav_left > a i { position: absolute; top: 3px; right: 8px; }
 
-#header #nav .nav_left ul { background: #314349; display: none; }
+#header #nav .nav_left ul { background: #314349; display: none; position: absolute; z-index: 1000; width: 180px; }
 
 #header #nav .nav_left ul li { position: relative; }
 

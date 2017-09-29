@@ -59,7 +59,7 @@
 
 
 #header{
-	height:274px;border-bottom:2px solid #D2B994;
+	border-bottom:2px solid #D2B994;
 	%ir{width:7px;height:4px; background:url(img/common_sprite.png) no-repeat -163px 0;vertical-align:middle;}
 	.h_top{
 		background:#F1F1F1;font-size:12px;color:#5E5E5E;padding-left:4px;
@@ -173,7 +173,7 @@
 				i{position:absolute;top:3px;right:8px;}
 			}
 			ul{
-				background:#314349;display:none;
+				background:#314349;display:none;position:absolute;z-index:1000;width:180px;
 				li{
 					position:relative;
 					a{padding-left:48px;height:40px;line-height:40px;font-size:12px;color:#fff;}
